@@ -12,7 +12,7 @@ Future<void> customDialog({
     titleStyle: TextStyle(color: redColor),
     content: Text(content),
     confirm: FlatButton(
-      onPressed: () => onPressed,
+      onPressed: () => onPressed(),
       child: Text(confirmText),
       textColor: blueColor05,
     ),
